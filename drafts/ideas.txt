@@ -1,0 +1,46 @@
+CI:
+- CircleCI vs GitLabCI
+- CircleCI scheduling a build...........
+- GitLabCI scheduling a build...........
+- drone.io simple workflow..............
+- GitHub Actions simple workflow
+- CircleCI promote to production
+- mirroring GitHub from GitLabCI
+- npm private registry
+
+Docker:
+- running supervisor
+- build args vs env - deep dive
+- installing xdebug...........
+
+k8s:
+- creating canary area cookie vs header
+- hpa
+- installing prometheus + node exporter
+- rabbitmq exporter
+- federation
+- vim plugins
+- hpa custom metrics
+- efs.................................
+- mongodb import-export
+- multizone cluster https://kubernetes.io/docs/setup/best-practices/multiple-zones/
+
+
+aws:
+- eksctl
+- cluster autoscaler
+- hpa custom https://docs.okd.io/latest/rest_api/apis-autoscaling/v2beta1.HorizontalPodAutoscaler.html https://docs.okd.io/3.9/dev_guide/pod_autoscaling.html
+
+RUN echo 'http://dl-cdn.alpinelinux.org/alpine/v3.9/community' >> /etc/apk/repositories
+RUN apk add mongodb-tools
+
+
+mongoimport --db admin --authenticationDatabase admin --username master --password abcd1234? --file /mongo/yad2_lead_fields.json --collection admin --host y2-dev-incubator2.cbjyhy8qtvcd.eu-west-1.docdb.amazonaws.com:27017  --ssl --sslCAFile rds-combined-ca-bundle.pem --sslAllowInvalidCertificates
+
+
+
+kubernetes ecosystem
+- kube-wireshark
+- externaksecrets
+- externalDNS
+- kubejanitor

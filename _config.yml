@@ -1,0 +1,36 @@
+title: Efrat Levitan
+description: >
+  Efrat Levitan's Blog site 
+baseurl: "/blog"
+url: "http://efrat19.github.io"
+google_analytics: UA-160733621-1
+
+author:
+  name: Efrat Levitan
+  email: efrat890089gmail.com
+  github: Efrat19
+  twitter: EfratLevitan
+  linkedin: efrat-levitan-773402177
+  # disqus_shortname: https-efrat19-github-io
+  bio: DevOps, Cloud, Linux machines
+
+paginate: 5
+paginate_path: /posts/page:num
+
+sass:
+  style: expanded
+
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jemoji
+  - jekyll-twitter-plugin
+
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      is_post: true
