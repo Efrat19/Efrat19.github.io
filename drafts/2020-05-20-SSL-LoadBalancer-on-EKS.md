@@ -158,3 +158,4 @@ Now we can add the repo:
 once applied, you should be able to securely access rabbitmq admin dashboard via `https://rabbit.mydomain.com` :star-struck: (user is `user` and password is `test`)
 
 
+<!-- https://aws.amazon.com/premiumsupport/knowledge-center/eks-vpc-subnet-discovery/ -->
