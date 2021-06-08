@@ -15,7 +15,7 @@ Always ready to learn new technologies, Extremely interested in kubernetes & clo
 
 #### Skills:
 - **Operating Systems:​** Linux Ubuntu, Centos, Alpine, macOS 10.15
-- **Database & Caching​:** MySQL, Redis, RabbitMQ, Memcached
+- **Database & Caching​:** MySQL, Redis, RabbitMQ, Memcached, MongoDB
 - **Containers:**​ Docker, docker-compose
 - **Kubernetes​:** kubeadm, eksctl, helm2+3, GitOps (fluxcd).
 - **Monitoring & Logging​:** Prometheus, Grafana, AlertManager, Loki, CloudWatch, Fluentd, Logstash, Sentry.io, Blackfire, Pingdom, Zabbix.
@@ -49,5 +49,5 @@ Always ready to learn new technologies, Extremely interested in kubernetes & clo
 #### Contact
 
 * Address: Haifa, Israel
-* Mobile: +972-(0)58-3219-154
+* Mobile: +972-(0)54-894-747
 * Email: efrat890089@gmail.com
