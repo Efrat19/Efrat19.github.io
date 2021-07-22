@@ -1,0 +1,8 @@
+- pdb
+- managed nodegroups
+- pod anti affinity
+- rolling update strategy
+- proper health checks
+- proper resource conf + hpa
+- termination handler
+- 
